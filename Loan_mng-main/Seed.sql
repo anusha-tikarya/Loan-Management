@@ -1,10 +1,10 @@
 INSERT INTO Customer (CustomerID, Name, Email, Phone, Address, Credit_score)
 VALUES
-    (1, 'kalam', 'kalam@example.com', '1234567890', '123 Main St, Anytown, USA', 750),
-    (2, 'Jane Smith', 'jane.smith@example.com', '9876543210', '456 Elm St, Somewhere, USA', 800),
-    (3, 'Michael Johnson', 'michael.johnson@example.com', '1112223333', '789 Oak St, Nowhere, USA', 700),
-    (4, 'Emily Brown', 'emily.brown@example.com', '4445556666', '321 Maple St, Anytown, USA', 720),
-    (5, 'David Lee', 'david.lee@example.com', '7778889999', '654 Pine St, Elsewhere, USA', 780);
+    (1, 'Shyam', 'shyam@example.com', '1234567890', '123 Main St, Anytown, USA', 750),
+    (2, 'Smith', 'smith@example.com', '9876543210', '456 Elm St, Somewhere, USA', 800),
+    (3, 'Sicon', 'sicon@example.com', '1112223333', '789 Oak St, Nowhere, USA', 700),
+    (4, 'Lily', 'lily@example.com', '4445556666', '321 Maple St, Anytown, USA', 720),
+    (5, 'Akshay', 'akshay@example.com', '7778889999', '654 Pine St, Elsewhere, USA', 780);
 
 
 INSERT INTO Loan (CustomerID, principal_amount, interest_rate, loan_term, loan_type, loan_status)
