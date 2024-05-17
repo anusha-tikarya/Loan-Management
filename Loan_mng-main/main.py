@@ -9,7 +9,7 @@ class Main:
         self.optionMenu()
 
     def optionMenu(self):
-        print("*********Welcome to the Loan Management System*******")
+        print("Welcome to the Loan Management System")
         
         while True:
                 print("Select an option")
