@@ -4,7 +4,7 @@ from tabulate import tabulate
 
 class Main:
     def __init__(self):
-        print("Starting the application......")
+        print("Starting the application")
         self.loanService = ILoanRepositoryImpl()
         self.optionMenu()
 
@@ -12,7 +12,7 @@ class Main:
         print("*********Welcome to the Loan Management System*******")
         
         while True:
-                print("=====Select an option========")
+                print("Select an option")
                 print("1. Apply for a loan")
                 print("2. Calculate interest")
                 print("3. Check loan status")
@@ -21,7 +21,7 @@ class Main:
                 print("6. List all loans")
                 print("7. List Loan by ID")
                 print("8. Exit")
-                print("--------------------------------------------------")
+              
                 choice = int(input("Please select a option from the menu: "))
                 if choice == 1:
                     input_loan_type = input("Enter the type of loan (Home/Car): ")
@@ -91,7 +91,7 @@ class Main:
 
 
                 elif choice == 8:
-                    print("Exiting the application....")
+                    print("Exiting the application")
                     return
 
                 else:
